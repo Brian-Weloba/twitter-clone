@@ -12,8 +12,8 @@ const Home: NextPage = () => {
         <title>Twitter 2.0</title>
       </Head>
 
-      <main>
-        <Sidebar />
+      <main className="grid grid-cols-9">
+        <Sidebar/>
         <Feed />
         <Widgets />
       </main>
